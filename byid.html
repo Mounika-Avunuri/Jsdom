@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p id="intro">finding html elements by id</p>
+    <p>this example shows the get element by id method</p>
+    <p id="demo"></p>
+    <script>
+            const element=document.getElementById("intro");
+
+        document.getElementById("demo").innerHTML="the text from the intro is"+element.innerHTML;
+    </script>
+</body>
+</html>
